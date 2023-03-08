@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/CHAT/chatserver/build/src/server",
+  "command": "/usr/bin/g++   -I/CHAT/chatserver/include -I/CHAT/chatserver/include/server -I/CHAT/chatserver/include/server/db -I/CHAT/chatserver/include/server/model -I/CHAT/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /CHAT/chatserver/src/server/chatserver.cpp",
+  "file": "/CHAT/chatserver/src/server/chatserver.cpp"
+},
+{
+  "directory": "/CHAT/chatserver/build/src/server",
+  "command": "/usr/bin/g++   -I/CHAT/chatserver/include -I/CHAT/chatserver/include/server -I/CHAT/chatserver/include/server/db -I/CHAT/chatserver/include/server/model -I/CHAT/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatservice.cpp.o -c /CHAT/chatserver/src/server/chatservice.cpp",
+  "file": "/CHAT/chatserver/src/server/chatservice.cpp"
+},
+{
+  "directory": "/CHAT/chatserver/build/src/server",
+  "command": "/usr/bin/g++   -I/CHAT/chatserver/include -I/CHAT/chatserver/include/server -I/CHAT/chatserver/include/server/db -I/CHAT/chatserver/include/server/model -I/CHAT/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/main.cpp.o -c /CHAT/chatserver/src/server/main.cpp",
+  "file": "/CHAT/chatserver/src/server/main.cpp"
+},
+{
+  "directory": "/CHAT/chatserver/build/src/server",
+  "command": "/usr/bin/g++   -I/CHAT/chatserver/include -I/CHAT/chatserver/include/server -I/CHAT/chatserver/include/server/db -I/CHAT/chatserver/include/server/model -I/CHAT/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/db/db.cpp.o -c /CHAT/chatserver/src/server/db/db.cpp",
+  "file": "/CHAT/chatserver/src/server/db/db.cpp"
+},
+{
+  "directory": "/CHAT/chatserver/build/src/server",
+  "command": "/usr/bin/g++   -I/CHAT/chatserver/include -I/CHAT/chatserver/include/server -I/CHAT/chatserver/include/server/db -I/CHAT/chatserver/include/server/model -I/CHAT/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/friendmodel.cpp.o -c /CHAT/chatserver/src/server/model/friendmodel.cpp",
+  "file": "/CHAT/chatserver/src/server/model/friendmodel.cpp"
+},
+{
+  "directory": "/CHAT/chatserver/build/src/server",
+  "command": "/usr/bin/g++   -I/CHAT/chatserver/include -I/CHAT/chatserver/include/server -I/CHAT/chatserver/include/server/db -I/CHAT/chatserver/include/server/model -I/CHAT/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o -c /CHAT/chatserver/src/server/model/groupmodel.cpp",
+  "file": "/CHAT/chatserver/src/server/model/groupmodel.cpp"
+},
+{
+  "directory": "/CHAT/chatserver/build/src/server",
+  "command": "/usr/bin/g++   -I/CHAT/chatserver/include -I/CHAT/chatserver/include/server -I/CHAT/chatserver/include/server/db -I/CHAT/chatserver/include/server/model -I/CHAT/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o -c /CHAT/chatserver/src/server/model/offlinemessagemodel.cpp",
+  "file": "/CHAT/chatserver/src/server/model/offlinemessagemodel.cpp"
+},
+{
+  "directory": "/CHAT/chatserver/build/src/server",
+  "command": "/usr/bin/g++   -I/CHAT/chatserver/include -I/CHAT/chatserver/include/server -I/CHAT/chatserver/include/server/db -I/CHAT/chatserver/include/server/model -I/CHAT/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/usermodel.cpp.o -c /CHAT/chatserver/src/server/model/usermodel.cpp",
+  "file": "/CHAT/chatserver/src/server/model/usermodel.cpp"
+},
+{
+  "directory": "/CHAT/chatserver/build/src/client",
+  "command": "/usr/bin/g++   -I/CHAT/chatserver/include -I/CHAT/chatserver/include/server -I/CHAT/chatserver/include/server/db -I/CHAT/chatserver/include/server/model -I/CHAT/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatClient.dir/main.cpp.o -c /CHAT/chatserver/src/client/main.cpp",
+  "file": "/CHAT/chatserver/src/client/main.cpp"
+}
+]
