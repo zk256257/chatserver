@@ -12,8 +12,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/CHAT/chatserver/src/server/model/groupmodel.cpp" "/CHAT/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o"
   "/CHAT/chatserver/src/server/model/offlinemessagemodel.cpp" "/CHAT/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o"
   "/CHAT/chatserver/src/server/model/usermodel.cpp" "/CHAT/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o"
+  "/CHAT/chatserver/src/server/redis/redis.cpp" "/CHAT/chatserver/build/src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
@@ -21,6 +21,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include/server"
   "../include/server/db"
   "../include/server/model"
+  "../include/server/redis"
   "../thirdparty"
   )
 

@@ -64,11 +64,11 @@ src/client/CMakeFiles/ChatClient.dir/main.cpp.o: ../src/client/main.cpp
 
 src/client/CMakeFiles/ChatClient.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatClient.dir/main.cpp.i"
-	cd /CHAT/chatserver/build/src/client && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /CHAT/chatserver/src/client/main.cpp > CMakeFiles/ChatClient.dir/main.cpp.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
 
 src/client/CMakeFiles/ChatClient.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatClient.dir/main.cpp.s"
-	cd /CHAT/chatserver/build/src/client && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /CHAT/chatserver/src/client/main.cpp -o CMakeFiles/ChatClient.dir/main.cpp.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
 
 src/client/CMakeFiles/ChatClient.dir/main.cpp.o.requires:
 

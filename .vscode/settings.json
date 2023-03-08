@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "any": "cpp",
+        "bitset": "cpp",
+        "optional": "cpp"
+    }
+}

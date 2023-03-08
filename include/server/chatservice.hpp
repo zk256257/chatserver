@@ -4,6 +4,7 @@
 #include<unordered_map>
 #include<functional>
 #include "json.hpp"
+#include"redis.hpp"
 #include"usermodel.hpp"
 #include"offlinemessagemodel.hpp"
 #include"friendmodel.hpp"
@@ -26,8 +27,7 @@ public:
     static ChatService* instance();
     //处理客户端异常退出
     void clientCloseException(const TcpConnectionPtr &);
-    //服务器异常，业务充值
-    void reset();
+  
     //处理登录业务
     void login(const TcpConnectionPtr&conn,json &js,Timestamp);
     //处理注册服务
@@ -42,8 +42,14 @@ public:
     void addGroup(const TcpConnectionPtr &conn, json &js, Timestamp time);
     // 群组聊天业务
       void groupChat(const TcpConnectionPtr &conn, json &js, Timestamp time);
+      // 处理注销业务
+    void loginout(const TcpConnectionPtr &conn, json &js, Timestamp time);
     //获取消息对应的处理器
     MsgHandler getHandler(int msgid);
+      // 服务器异常，业务重置方法
+    void reset();
+        // 从redis消息队列中获取订阅的消息
+    void handleRedisSubscribeMessage(int, string);
 private:
     ChatService();
     //存储消息id和其对应的业务处理方法
@@ -58,7 +64,7 @@ private:
     OfflineMsgModel _offlineMsgModel;//封装了处理离线消息的方法
     FriendModel _friendModel;//封装了处理添加好友，在线显示好友信息的方法
     GroupModel _groupModel;
-
+    Redis _redis; // redis操作对象
 };
 
 

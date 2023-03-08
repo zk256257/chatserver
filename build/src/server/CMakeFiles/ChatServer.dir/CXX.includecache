@@ -23,6 +23,8 @@ functional
 -
 json.hpp
 ../include/server/json.hpp
+redis.hpp
+../include/server/redis.hpp
 usermodel.hpp
 ../include/server/usermodel.hpp
 offlinemessagemodel.hpp
@@ -79,6 +81,14 @@ string
 ../include/server/model/usermodel.hpp
 user.hpp
 ../include/server/model/user.hpp
+
+../include/server/redis/redis.hpp
+hiredis/hiredis.h
+-
+thread
+-
+functional
+-
 
 ../thirdparty/json.hpp
 algorithm
@@ -187,6 +197,8 @@ public.hpp
 /CHAT/chatserver/src/server/public.hpp
 json.hpp
 -
+redis.hpp
+/CHAT/chatserver/src/server/redis.hpp
 map
 -
 iostream
@@ -233,6 +245,12 @@ usermodel.hpp
 /CHAT/chatserver/src/server/model/usermodel.hpp
 db.h
 /CHAT/chatserver/src/server/model/db.h
+iostream
+-
+
+/CHAT/chatserver/src/server/redis/redis.cpp
+redis.hpp
+/CHAT/chatserver/src/server/redis/redis.hpp
 iostream
 -
 
